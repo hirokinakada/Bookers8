@@ -1,0 +1,3 @@
+$(".book_<%= @book.id %>").html("<%= j(render 'books/book', book: @favorite.book , user:@favorite.user) %>");
+<%#クラス名　見つけたら　このHTMLを読み込む
+<%#  $("#book_<%= @book.id %>
